@@ -1,11 +1,11 @@
 {
-  "name": "openrouter-mcp-server",
+  "name": "openrouter-pricing-mcp",
   "version": "1.0.0",
   "description": "An MCP server providing live model pricing data from OpenRouter. Query, compare, and discover the cheapest AI models.",
   "type": "module",
   "main": "build/index.js",
   "bin": {
-    "openrouter-mcp-server": "build/index.js"
+    "openrouter-pricing-mcp": "build/index.js"
   },
   "files": [
     "build",

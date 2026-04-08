@@ -360,7 +360,7 @@ const HANDLER_MAP: Record<string, (models: Model[], args: Record<string, unknown
 
 function createServer(): Server {
   const server = new Server(
-    { name: "openrouter-mcp-server", version: "1.0.0" },
+    { name: "openrouter-pricing-mcp", version: "1.0.0" },
     { capabilities: { tools: {} } }
   );
 
